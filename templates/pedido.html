@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho_01</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+          <li><a href="../templates/index.html">Início</a></li>
+          <li><a href="../templates/pedido.html">Fazer pedido</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-pedidos-cards">
+
+        <div class="pedidos-cards">
+            <div class="item">
+                <img class="img-card-pedido" src="../img/frango.webp">
+                <h4>Frango com catupiry - R$45</h4>
+                <img onclick="sabor_3()" class="img-add" src="../img/botao-adicionar.png">
+            </div>
+            <div class="item">
+                <img class="img-card-pedido" src="../img/frango.webp">
+                <h4>Frango com catupiry - R$45</h4>
+                <img onclick="sabor_3()" class="img-add" src="../img/botao-adicionar.png">
+            </div>
+            <div class="item">
+                <img class="img-card-pedido" src="../img/frango.webp">
+                <h4>Frango com catupiry - R$45</h4>
+                <img onclick="sabor_4()" class="img-add" src="../img/botao-adicionar.png">
+            </div>
+        </div>
+
+        <div class="pedidos-cards">
+            <div class="item">
+                <img class="img-card-pedido" src="../img/frango.webp">
+                <h4>Frango com catupiry - R$45</h4>
+                <img onclick="sabor_1()" class="img-add" src="../img/botao-adicionar.png">
+            </div>
+            <div class="item">
+                <img class="img-card-pedido" src="../img/frango.webp">
+                <h4>Frango com catupiry - R$45</h4>
+                <img onclick="sabor_2()" class="img-add" src="../img/botao-adicionar.png">
+            </div>
+            <div class="item">
+                <img class="img-card-pedido" src="../img/frango.webp">
+                <h4>Frango com catupiry - R$45</h4>
+                <img onclick="sabor_2()" class="img-add" src="../img/botao-adicionar.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="resultado-space">
+        <div class="resultado">
+            <button onclick="resultado()" id="resultado">Valor total</button>
+            <p id="result">Resultado:</p>
+        </div>
+    </section>
+
+    <script src="../code.js"></script>
+</body>
+</html>
