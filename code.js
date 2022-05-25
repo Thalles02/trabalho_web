@@ -31,4 +31,5 @@ function resultado(){
     document.getElementById("result").innerText = "Resultado: " + resp;
 }
 
+
 console.log("Thales e Cesar");

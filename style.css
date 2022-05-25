@@ -63,7 +63,9 @@ html {
 
 .space-apresentation button{
     background-color: rgb(201, 34, 34);
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
     padding: 15px 35px;
     border-radius: 8px;
     cursor: pointer;
@@ -114,7 +116,7 @@ html {
     width: 50px;
 }
 
-
+/* Responsividade da página início/index.html */
 
 @media only screen and (max-width: 750px) {
     
@@ -212,6 +214,8 @@ html {
     margin-right: 20px;
     color: white;
 }
+
+/* Responsividade da página pedido */
 
 @media only screen and (max-width: 750px) {
     
