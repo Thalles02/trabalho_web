@@ -1,3 +1,5 @@
+//Thalles Augusto Monteiro Martins e Cesar Rosa de Assis
+
 var num1=0, num2=0, num3=0, num4=0, num5=0, num6=0;
 
 function sabor_1(){
