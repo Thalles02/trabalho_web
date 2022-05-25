@@ -245,3 +245,18 @@ html {
     }
 
 }
+
+.section-projeto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explicacao{
+    width: 60%;
+}
+
+.explicacao h4{
+    margin-top: 15px;
+}
