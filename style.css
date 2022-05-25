@@ -155,11 +155,15 @@ html {
     justify-content: center;
 }
 
+.section-pedidos-cards span{
+    color: red;
+}
+
 .pedidos-cards{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .item{
@@ -181,6 +185,7 @@ html {
 .img-add{
     width: 15px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .resultado-space{
